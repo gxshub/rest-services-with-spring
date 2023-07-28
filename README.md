@@ -11,8 +11,7 @@ Click "GENERATE", download and extract the zip file. Open the project folder in 
 
 Based on the dependence of classes, implement them in this following order: `Library` -> `LibraryRepository` -> `LibraryController`.
 
-After running the project, open a Terminal window and a PowerShell session. 
-process the following Rest requests to the Spring application:
+After running the Spring application, interact with it by using REST requests. The following are examples of requests in **CMD** (_note. commands in PowerShell are different_).
 ```shell
 curl -X POST -H "Content-Type:application/json" -d "{\"name\":\"My Library\"}" http://localhost:8080/libraries
 ```
