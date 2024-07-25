@@ -3,8 +3,8 @@
 This is a "getting started" with the Spring Boot framework, in which we build a simple REST service. 
 
 First go to the [Spring Initializr](https://start.spring.io/) to download a Spring project template.
-Choose **Maven** in *Project*, Choose **Java** in *Language*. For the version of Spring Boot, choose **2.X.X** 
-(don't choose 3.0.0+). Choose **Jar** in *Packaging* and **Java 11** (don't use other java version).
+Choose **Maven** in *Project*, Choose **Java** in *Language*. Choose a version of Spring Boot, for example **3.3.2**. 
+Choose **Jar** in *Packaging* and **Java 21** (don't use other java version).
 In *Dependencies*, add **Web**, **JPA** and **H2**. 
 
 Click "GENERATE", download and extract the zip file. Open the project folder in the IDE.
